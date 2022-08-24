@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:background="#D2AC2DC8"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#3d1380"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:text="lorem ipsum"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:text="Description"/>
+        </LinearLayout>
+        <LinearLayout
+            android:background="#C8C93CD3"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <ImageButton
+                    android:src="@mipmap/ic_launcher_round"
+                    android:background="@color/white"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:textSize="25sp"/>
+                <ImageButton
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/ic_launcher_round"
+                    android:background="@color/white"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Room chat"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+                <ImageButton
+                    android:src="@mipmap/ic_launcher_round"
+                    android:background="@color/white"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="File"
+                    android:textSize="25sp"/>
+                <ImageButton
+                    android:src="@mipmap/ic_launcher_round"
+                    android:background="@color/white"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Class"
+                    android:textSize="25sp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
